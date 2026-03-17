@@ -52,7 +52,6 @@ while position[1] >= 0 and t < max_time:
     t += dt
 
 trajectory = np.array(trajectory)
-# print(trajectory.shape)
 trajectory_plot(trajectory)
 forces_table(altitude_val, thrust_val, drag_val, gravity_val, time_val)
 
